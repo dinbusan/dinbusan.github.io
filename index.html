@@ -4,19 +4,46 @@
         <meta charset="utf-8">
         <title>Project: Blog</title>
     </head>
+    <style>
+        body{
+            background-color: grey;
+        }
+        a{
+            color: pink;
+            font-weight:bold;
+        }
+        .blogheaderthings{
+            font-family: helvetica, sans-serif;
+            color: orange;
+            font-size: 2em;
+        }
+        .date{
+            font-style:italic;
+        }
+        .headers {
+            font-family: helvetica, sans-serif;
+            color: green;
+        }
+    </style>
     <body>
         
-        <h1>___'s blog</h1>
+        <h1 class="blogheaderthings">Deanns's blog</h1>
 
-        <h3>Contents</h3>
+        <h3 class="blogheaderthings">Contents</h3>
         <ul>
-            <li>First post!</li>
+            <li> <a href="#first-post">First post!</a> </li>
+            <li> <a href="#second-post"> Second post! </a></li>
         </ul>
         
-        <h2>First post</h2>
-        <h6>Posted on some date in some year</h6>
+        <h2 id="first-post" class="headers">First post</h2>
+        <h6 class="date">3/28/2020</h6>
         
-        <p>Something excited happened.</p>
+        <p>So, I recently decided to really put in a lot of effort when it comes to learning software and web programming stuff. I like to think that it'll be possible for me to make a career out of it if I really put in my all. So far so good! It's been about a week of me working hard at it, and I'm incredibly surprised with the fact that I haven't gotten bored or quit yet! ^^ I haven't been this proud of myself in a long time. Corona virus has been awful lately, but I'm happy with the time I've had to dedicate and foster an interest in something that could really help me in the future. </p>
+        
+        <h2 id="second-post" class="headers">Second post</h2>
+        <h6 class="date"> Still 3/28/2020</h6>
+        
+        <p> I hope that I will continue on with this. My goal is to study hard enough and often enough that by 2021 I could potentially start looking at junior developer jobs. I want to start looking in Dublin, I think. Wish me luck!
         
         
     </body>
