@@ -5,6 +5,12 @@ body {
 a {
     color: #f4a261;
     font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    font-size: larger;
 }
 
 .blogheaderthings {
