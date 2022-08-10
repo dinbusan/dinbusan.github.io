@@ -1,0 +1,23 @@
+body {
+    background-color: grey;
+}
+
+a {
+    color: pink;
+    font-weight: bold;
+}
+
+.blogheaderthings {
+    font-family: helvetica, sans-serif;
+    color: orange;
+    font-size: 2em;
+}
+
+.date {
+    font-style: italic;
+}
+
+.headers {
+    font-family: helvetica, sans-serif;
+    color: green;
+}
