@@ -1,15 +1,15 @@
 body {
-    background-color: grey;
+    background-color: #264653;
 }
 
 a {
-    color: pink;
+    color: #f4a261;
     font-weight: bold;
 }
 
 .blogheaderthings {
     font-family: helvetica, sans-serif;
-    color: orange;
+    color: #2a9d8f;
     font-size: 2em;
 }
 
@@ -19,5 +19,5 @@ a {
 
 .headers {
     font-family: helvetica, sans-serif;
-    color: green;
+    color: #e9c46a;
 }
