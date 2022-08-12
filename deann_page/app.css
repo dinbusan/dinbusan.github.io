@@ -1,5 +1,6 @@
 body {
     background-color: #264653;
+    margin: 5%;
 }
 
 a {
@@ -11,6 +12,10 @@ a {
 a:hover {
     text-decoration: underline;
     font-size: larger;
+}
+
+a:active {
+    color: #e9c46a;
 }
 
 .blogheaderthings {
@@ -26,4 +31,18 @@ a:hover {
 .headers {
     font-family: helvetica, sans-serif;
     color: #e9c46a;
+}
+
+h2:nth-of-type(2n),
+h6:nth-of-type(2n),
+p:nth-of-type(2n) {
+    background-color: #2f5767;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding: 10px;
 }
