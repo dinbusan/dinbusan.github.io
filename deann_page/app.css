@@ -5,6 +5,21 @@ body {
     font-family: 'Smooch Sans', sans-serif;
 }
 
+nav {
+    font-size: 1em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a,
+nav ul,
+nav li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
 main {
     width: 80%;
     margin: 0 auto;
@@ -52,4 +67,22 @@ h1 {
 
 p {
     padding: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    nav,
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 3em;
+    }
 }
